@@ -1,0 +1,9 @@
+README.md
+setup.py
+code_to_readme/__init__.py
+code_to_readme/__main__ .py
+ctore.egg-info/PKG-INFO
+ctore.egg-info/SOURCES.txt
+ctore.egg-info/dependency_links.txt
+ctore.egg-info/not-zip-safe
+ctore.egg-info/top_level.txt
