@@ -1,9 +1,0 @@
-README.md
-setup.py
-code_to_readme/__init__.py
-code_to_readme/__main__ .py
-code_to_readme.egg-info/PKG-INFO
-code_to_readme.egg-info/SOURCES.txt
-code_to_readme.egg-info/dependency_links.txt
-code_to_readme.egg-info/not-zip-safe
-code_to_readme.egg-info/top_level.txt

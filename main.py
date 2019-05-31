@@ -12,10 +12,7 @@ import re
 #adds arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("-p", type=str, help="enter the file path")
-parser.add_argument("-o", type=str, help="enter the output path. Empty quotes for same directory")
-
 args = parser.parse_args()
-print("Hi there, it's nice to meet you! This will convert your code to a README.md")
 file = open(args.p, 'r')
 f = file.readlines()
 
@@ -59,9 +56,9 @@ def content_sidecomm():
     return [contents, sidecomm]
 
 # Format the file and save
-def main():
+def format_and_save():
     #initial file
-    fin_out = open(args.o+'README.md', 'w+')  #output file
+    fin_out = open('README.md', 'w+')  #output file
     fin_out.write('# README\n')
     fin_out.write('## Contents\n')
     cs = content_sidecomm()
@@ -78,6 +75,6 @@ def main():
 
 
     fin_out.close()
-main()
+
 # Main function
-# format_and_save()
+format_and_save()
